@@ -14,20 +14,6 @@ $wgExtensionCredits['other'][] = array(
 $wgImageFilterIP = dirname( __FILE__ );
 $wgExtensionMessagesFiles['ImageFilter'] = "$wgImageFilterIP/ImageFilter.i18n.php";
 
-//Avoid unstubbing $wgParser on setHook() too early on modern (1.12+) MW versions, as per r35980
-if ( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
-	$wgHooks['ParserFirstCallInit'][] = 'ImageFilterInit';
-} else { // Otherwise do things the old fashioned way
-	$wgExtensionFunctions[] = 'ImageFilterInit';
-}
-
-function ImageFilterInit()
-{
-  //Load messages so that color-coding works.
-  wfLoadExtensionMessages( 'ImageFilter' );
-  return true;
-}
-
 $wgHooks['UserToggles'][] = 'ImageFilterToggle';
 $wgHooks['PageRenderingHash'][] = 'ImageFilterHash';
 $wgHooks['ImageBeforeProduceHTML'][] = 'ImageFilterProduceHTML';
@@ -75,7 +61,7 @@ function ImageFilterProduceHTML( &$skin, &$title, &$file, &$frameParams, &$handl
 		} else {
 			$res = $skin->link($title);
 		}
-		$res .= wfMsg('nsfw-warning');
+		$res .= wfMessage('nsfw-warning')->text();
 		return false;
 	}
 }
