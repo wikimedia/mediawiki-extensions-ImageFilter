@@ -1,0 +1,24 @@
+{
+	"manifest_version": 1,
+	"name": "ImageFilter",
+	"description": "Image filter",
+	"type": "parserhook",
+	"author": [
+		"[http://mediawiki.org/wiki/User:Nx Nx]",
+		"Tim Starling"
+	],
+	"url": "http://www.mediawiki.org/wiki/Extension:ImageFilter",
+	"Hooks": {
+		"UserToggles": "MediaWiki\\Extension\\ImageFilter\\ImageFilter::onUserToggles",
+		"PageRenderingHash": "MediaWiki\\Extension\\ImageFilter\\ImageFilter::onPageRenderingHash",
+		"ImageBeforeProduceHTML": "MediaWiki\\Extension\\ImageFilter\\ImageFilter::onImageBeforeProduceHTML",
+		"GetPreferences": "MediaWiki\\Extension\\ImageFilter\\ImageFilter::onGetPreferences",
+		"GetDoubleUnderscoreIDs": "MediaWiki\\Extension\\ImageFilter\\ImageFilter::onGetDoubleUnderscoreIDs"
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\ImageFilter\\ImageFilter": "includes/ImageFilter.php"
+	},
+	"MessagesDirs": { "ImageFilter": [ "i18n" ] },
+	"ExtensionMessagesFiles": { "ImageFilterMagic": "ImageFilter.i18n.magic.php" },
+	"PagePropLinkInvalidations": { "imagefilter-nsfw": "imagelinks" }
+}
