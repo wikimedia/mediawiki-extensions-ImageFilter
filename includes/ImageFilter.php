@@ -3,10 +3,6 @@
 namespace MediaWiki\Extension\ImageFilter;
 
 class ImageFilter {
-	public static function onUserToggles( &$extraToggles ) {
-		$extraToggles[] = 'displayfiltered';
-		return true;
-	}
 
 	public static function onPageRenderingHash( &$hash, $user, &$forOptions ) {
 		if ( $user->getOption( 'displayfiltered' ) ) {
