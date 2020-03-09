@@ -2,8 +2,15 @@
 
 namespace MediaWiki\Extension\ImageFilter;
 
-class ImageFilter {
+use MediaWiki\MediaWikiServices;
 
+class ImageFilter {
+	/**
+	 * @param string &$hash
+	 * @param \User $user
+	 * @param array &$forOptions
+	 * @return bool
+	 */
 	public static function onPageRenderingHash( &$hash, $user, &$forOptions ) {
 		if ( $user->getOption( 'displayfiltered' ) ) {
 			$hash .= '!displayfiltered';
@@ -11,7 +18,17 @@ class ImageFilter {
 		return true;
 	}
 
-	public static function onImageBeforeProduceHTML( &$skin, &$title, &$file,
+	/**
+	 * @param \Skin $skin
+	 * @param \Title $title
+	 * @param \File $file
+	 * @param array &$frameParams
+	 * @param array &$handlerParams
+	 * @param string &$time
+	 * @param string &$res
+	 * @return bool
+	 */
+	public static function onImageBeforeProduceHTML( $skin, $title, $file,
 		&$frameParams, &$handlerParams, &$time, &$res
 	) {
 		$user = \RequestContext::getMain()->getUser();
@@ -25,16 +42,22 @@ class ImageFilter {
 			return true;
 		}
 
+		$linker = MediaWikiServices::getInstance()->getLinkRenderer();
 		if ( $frameParams['caption'] !== '' ) {
-			$res = $skin->link( $title, $frameParams['caption'] );
+			$res = $linker->makeLink( $title, $frameParams['caption'] );
 		} else {
-			$res = $skin->link( $title );
+			$res = $linker->makeLink( $title );
 		}
 		$res .= '<sup>' . wfMessage('nsfw-warning')->escaped() . '</sup>';
 		return false;
 	}
 
-	public static function onGetPreferences() {
+	/**
+	 * @param \User &$user
+	 * @param array &$preferences
+	 * @return bool
+	 */
+	public static function onGetPreferences( $user, &$preferences ) {
 		$preferences['displayfiltered'] = array(
 			'type' => 'toggle',
 			'label-message' => 'tog-displayfiltered',
