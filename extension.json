@@ -1,23 +1,49 @@
 {
-	"manifest_version": 1,
+	"manifest_version": 2,
 	"name": "ImageFilter",
-	"description": "Image filter",
+	"namemsg": "imagefilter-extname",
+	"version": "1.2",
+	"descriptionmsg": "imagefilter-desc",
 	"type": "parserhook",
 	"author": [
-		"[http://mediawiki.org/wiki/User:Nx Nx]",
+		"[https://mediawiki.org/wiki/User:Nx Nx]",
 		"Tim Starling"
 	],
-	"url": "http://www.mediawiki.org/wiki/Extension:ImageFilter",
+	"url": "https://www.mediawiki.org/wiki/Extension:ImageFilter",
+	"requires": {
+		"MediaWiki": ">= 1.43.0"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\ImageFilter\\Hooks",
+			"services": [
+				"UserOptionsManager",
+				"PageProps",
+				"LinkRenderer"
+			]
+		}
+	},
 	"Hooks": {
-		"PageRenderingHash": "MediaWiki\\Extension\\ImageFilter\\ImageFilter::onPageRenderingHash",
-		"ImageBeforeProduceHTML": "MediaWiki\\Extension\\ImageFilter\\ImageFilter::onImageBeforeProduceHTML",
-		"GetPreferences": "MediaWiki\\Extension\\ImageFilter\\ImageFilter::onGetPreferences",
-		"GetDoubleUnderscoreIDs": "MediaWiki\\Extension\\ImageFilter\\ImageFilter::onGetDoubleUnderscoreIDs"
+		"PageRenderingHash": "main",
+		"ImageBeforeProduceHTML": "main",
+		"GetPreferences": "main",
+		"GetDoubleUnderscoreIDs": "main"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ImageFilter\\": "includes/"
 	},
 	"AutoloadClasses": {
-		"MediaWiki\\Extension\\ImageFilter\\ImageFilter": "includes/ImageFilter.php"
+		"MediaWiki\\Extension\\ImageFilter\\Hooks": "includes/Hooks.php"
 	},
-	"MessagesDirs": { "ImageFilter": [ "i18n" ] },
-	"ExtensionMessagesFiles": { "ImageFilterMagic": "ImageFilter.i18n.magic.php" },
-	"PagePropLinkInvalidations": { "imagefilter-nsfw": "imagelinks" }
+	"MessagesDirs": {
+		"ImageFilter": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ImageFilterMagic": "ImageFilter.i18n.magic.php"
+	},
+	"PagePropLinkInvalidations": {
+		"imagefilter-nsfw": "imagelinks"
+	}
 }

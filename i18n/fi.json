@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jack Phoenix"
+		]
+	},
+	"imagefilter-extname": "Kuvasuodatin",
+	"imagefilter-desc": "Mahdollistaa kuvien merkitsemisen ainoastaan aikuisille sopivaksi ja sallii käyttäjien suostua näkemään kyseistä sisältöä, piilottaen merkityt kuvat oletuksena esim. anonyymeiltä käyttäjiltä",
+	"imagefilter-tog-displayfiltered": "Näytä ainoastaan aikuisille soveltuviksi merkityt kuvat",
+	"imagefilter-nsfw-warning": "Varoitus: ei-työturvallinen kuva!"
+}
