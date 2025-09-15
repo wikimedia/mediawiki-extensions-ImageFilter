@@ -43,7 +43,5 @@
 	"ExtensionMessagesFiles": {
 		"ImageFilterMagic": "ImageFilter.i18n.magic.php"
 	},
-	"PagePropLinkInvalidations": {
-		"imagefilter-nsfw": "imagelinks"
-	}
+	"callback": "MediaWiki\\Extension\\ImageFilter\\Hooks::setup"
 }
