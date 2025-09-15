@@ -32,9 +32,6 @@
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\ImageFilter\\": "includes/"
 	},
-	"AutoloadClasses": {
-		"MediaWiki\\Extension\\ImageFilter\\Hooks": "includes/Hooks.php"
-	},
 	"MessagesDirs": {
 		"ImageFilter": [
 			"i18n"
