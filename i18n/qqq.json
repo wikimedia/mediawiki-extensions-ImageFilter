@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"imagefilter-extname": "Extension name; shown on [[Special:Version]]",
 	"imagefilter-desc": "Extension description; shown on [[Special:Version]]",
 	"imagefilter-tog-displayfiltered": "Elaborate description of the new preference option causing explicit images to be displayed, shown on [[Special:Preferences#mw-prefsection-rendering]] in the \"Files\" section when the ImageFilter extension is installed",
