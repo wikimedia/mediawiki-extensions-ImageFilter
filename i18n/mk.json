@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"imagefilter-extname": "Филтер за слики",
+	"imagefilter-desc": "Овозможува означување на слики како <span class=\"explain\" title=\"Бебезбедно за на работа\" style=\"border-bottom: 1px dotted #000;\">NSFW</span> и на корисниците им дава можност да одлучат да не гледаат такви слики, скривајќи ги означените слики по основно; на пр. од анонимни корисници",
+	"imagefilter-tog-displayfiltered": "Прикажувај слики означени како <span class=\"explain\" title=\"Небезбедно за на работа\" style=\"border-bottom: 1px dotted #000;\">NSFW</span>",
+	"imagefilter-nsfw-warning": "Предупредување: Слика небезбедна за на работа!"
+}

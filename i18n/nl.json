@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"imagefilter-extname": "Afbeeldingsfilter",
+	"imagefilter-desc": "Hiermee kunnen afbeeldingen worden gemarkeerd als <span class=\"explain\" title=\"Niet veilig voor het werk\" style=\"border-bottom: 1px dotted #000;\">NSFW</span> en kunnen gebruikers ervoor kiezen om deze afbeeldingen te bekijken. De gelabelde afbeeldingen worden standaard verborgen, bijvoorbeeld voor anonieme gebruikers.",
+	"imagefilter-tog-displayfiltered": "Afbeeldingen weergeven die gemarkeerd zijn als <span class=\"explain\" title=\"Niet veilig voor het werk\" style=\"border-bottom: 1px dotted #000;\">NSFW</span>",
+	"imagefilter-nsfw-warning": "Waarschuwing: NSFW-afbeelding!"
+}
