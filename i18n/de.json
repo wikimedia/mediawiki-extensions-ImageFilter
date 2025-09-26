@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Brettchenweber"
+			"Brettchenweber",
+			"Jack Phoenix"
 		]
 	},
 	"imagefilter-extname": "Bildfilter",
-	"imagefilter-desc": "Ermöglicht das Markieren von Bildern als <span class=\"explain\" title=„Nicht sicher für die Arbeit“ style=\"border-bottom: 1px dotted #000;\">NSFW</span> und die Möglichkeit für Benutzer, sich für die Anzeige solcher Bilder zu entscheiden. Die markierten Bilder werden standardmäßig ausgeblendet, z. B. bei nicht angemeldeten Benutzern.",
+	"imagefilter-desc": "Ermöglicht das Markieren von Bildern als <span class=\"explain\" title=\"Nicht sicher für die Arbeit\" style=\"border-bottom: 1px dotted #000;\">NSFW</span> und die Möglichkeit für Benutzer, sich für die Anzeige solcher Bilder zu entscheiden. Die markierten Bilder werden standardmäßig ausgeblendet, z. B. bei nicht angemeldeten Benutzern.",
 	"imagefilter-tog-displayfiltered": "Als <span class=\"explain\" title=\"Nicht sicher für die Arbeit\" style=\"border-bottom: 1px dotted #000;\">NSFW</span> gekennzeichnete Bilder anzeigen",
 	"imagefilter-nsfw-warning": "Warnung: Das Bild ist nicht sicher für die Arbeit!"
 }

@@ -5,5 +5,7 @@
 		]
 	},
 	"imagefilter-extname": "GörüntüFiltresi",
-	"imagefilter-nsfw-warning": "Uyarı: İş Yeri İçin Uygun Değildir Görseli!"
+	"imagefilter-desc": "Görsellerin <span class=\"explain\" title=\"Not Safe for Work\" style=\"border-bottom: 1px dotted #000;\">NSFW</span> (İş Yeri İçin Uygun Değil) olarak etiketlenmesini ve kullanıcıların bu etiketli içerikleri isteğe bağlı olarak görüntülemesini sağlar. Varsayılan olarak anonim kullanıcılar gibi kişilere bu görseller gizlenir.",
+	"imagefilter-tog-displayfiltered": "<span class=\"explain\" title=\"Not Safe for Work\" style=\"border-bottom: 1px dotted #000;\">NSFW</span> olarak işaretlenmiş görselleri görüntüle",
+	"imagefilter-nsfw-warning": "Uyarı: İş ortamı için uygun olmayan (NSFW) görsel!"
 }
