@@ -1,6 +1,6 @@
 {
 	"imagefilter-extname": "ImageFilter",
-	"imagefilter-desc": "Allows images to be tagged as <span class=\"explain\" title=\"Not Safe for Work\" style=\"border-bottom: 1px dotted #000;\">NSFW</span> and users to opt into viewing such images, hiding the tagged images by default e.g. from anonymous users",
-	"imagefilter-tog-displayfiltered": "Display images marked as <span class=\"explain\" title=\"Not Safe for Work\" style=\"border-bottom: 1px dotted #000;\">NSFW</span>",
+	"imagefilter-desc": "Allows images to be tagged as NSFW (Not Safe for Work) and lets users to opt into viewing such images, hiding the tagged images by default, e.g. from anonymous users",
+	"imagefilter-tog-displayfiltered": "Display images marked as NSFW (Not Safe for Work)",
 	"imagefilter-nsfw-warning": "Warning: NSFW Image!"
 }
