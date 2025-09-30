@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Libamidi"
+		]
+	},
+	"imagefilter-desc": "允许将图像标记为NSFW（不适合工作场所），并允许用户选择查看此类图像，默认情况下隐藏标记的图像，例如对匿名用户隐藏",
+	"imagefilter-tog-displayfiltered": "显示标记为NSFW（即不适合工作场所）的图像",
+	"imagefilter-nsfw-warning": "警告：NSFW图片！"
+}
