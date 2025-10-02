@@ -5,7 +5,7 @@
 		]
 	},
 	"imagefilter-extname": "Filtro de imagines",
-	"imagefilter-desc": "Permitte marcar imagines como <span class=\"explain\" title=\"Not Safe For Work: non secur pro le labor\" style=\"border-bottom: 1px dotted #000;\">NSFW</span> e offere al usatores le option de vider le imagines marcate, occultante los p.ex. pro usatores anonyme",
-	"imagefilter-tog-displayfiltered": "Monstrar imagines marcate como <span class=\"explain\" title=\"Not Safe For Work: non secur pro le labor\" style=\"border-bottom: 1px dotted #000;\">NSFW</span>",
+	"imagefilter-desc": "Permitte marcar imagines como NSFW (Not Safe For Work: non secur pro le labor) e offere al usatores le option de vider le imagines marcate, occultante los p.ex. pro usatores anonyme",
+	"imagefilter-tog-displayfiltered": "Monstrar imagines marcate como NSFW (Not Safe For Work: non secur pro le labor)",
 	"imagefilter-nsfw-warning": "Aviso: imagine NSFW!"
 }
