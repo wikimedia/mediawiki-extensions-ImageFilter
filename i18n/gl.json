@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"imagefilter-desc": "Permite etiquetar as imaxes como «NSFW» («Not Safe for Work», é dicir, non axeitadas para o traballo) e permite aos usuarios optar por ver ditas imaxes, ocultando por defecto as imaxes que estean etiquetadas; por exemplo, aquelas de usuarios anónimos.",
+	"imagefilter-tog-displayfiltered": "Mostrar as imaxes marcadas como «NSFW» («Not Safe for Work», é dicir, non axeitadas para o traballo)",
+	"imagefilter-nsfw-warning": "Aviso: Imaxe non axeitada para o traballo!"
+}
