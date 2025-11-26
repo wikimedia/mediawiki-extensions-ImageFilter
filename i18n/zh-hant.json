@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"imagefilter-desc": "允許將圖片標記為 NSFW（不適合工作場所觀看），並允許使用者選擇是否查看此類圖片，預設會隱藏掉標記成此類型的圖片，例如對匿名使用者隱藏。",
+	"imagefilter-tog-displayfiltered": "顯示標記為 NSFW（不適合工作場所觀看）的圖片",
+	"imagefilter-nsfw-warning": "警告：NSFW 圖片！"
+}
