@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jack Phoenix"
+		]
+	},
+	"imagefilter-extname": "Billedfilter",
+	"imagefilter-tog-displayfiltered": "Vis billeder markeret som NSFW (ikke egnet for arbejdspladsen)",
+	"imagefilter-nsfw-warning": "Advarsel: NSFW-billede!"
+}
