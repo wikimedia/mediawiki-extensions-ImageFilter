@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Umherirrender"
 		]
 	},
-	"imagefilter-extname": "{{optional}}\nExtension name; shown on [[Special:Version]]",
-	"imagefilter-desc": "Extension description; shown on [[Special:Version]]",
+	"imagefilter-extname": "{{name}}",
+	"imagefilter-desc": "{{desc|name=ImageFilter|url=https://www.mediawiki.org/wiki/Extension:ImageFilter}}",
 	"imagefilter-tog-displayfiltered": "Elaborate description of the new preference option causing explicit images to be displayed, shown on [[Special:Preferences#mw-prefsection-rendering]] in the \"Files\" section when the ImageFilter extension is installed",
 	"imagefilter-nsfw-warning": "Warning text displayed next to link to explicit image"
 }
