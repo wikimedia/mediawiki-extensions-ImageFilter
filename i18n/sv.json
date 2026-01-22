@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stefan2255"
+		]
+	},
+	"imagefilter-desc": "Tillåter att bilder taggas som NSFW (Not Safe for Work) och låter användare välja att visa sådana bilder, och döljer de taggade bilderna som standard, t.ex. från anonyma användare.",
+	"imagefilter-tog-displayfiltered": "Visa bilder markerade som NSFW (Not Safe for Work)",
+	"imagefilter-nsfw-warning": "Varning: NSFW-bild!"
+}
