@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"imagefilter-desc": "Umožňuje označovať obrázky ako NSFW (nevhodné do práce) a používateľom umožňuje zapnúť si ich zobrazovanie; označené obrázky sú predvolene skryté, napríklad pre anonymných používateľov",
+	"imagefilter-tog-displayfiltered": "Zobrazovať obrázky označené ako NSFW (nevhodné do práce)",
+	"imagefilter-nsfw-warning": "Upozornenie: obrázok NSFW!"
+}
